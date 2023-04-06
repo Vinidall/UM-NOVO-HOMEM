@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b8b6b4;
+}
+
+.navbar {
+    background-color: #171a21;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-main {
+    display: flex;
+    justify-content: center;
+}
+.navbar-left {
+    display: flex;
+    flex-direction: row;
+}
