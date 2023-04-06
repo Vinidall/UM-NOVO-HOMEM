@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+ 
+}
+
+.foto-perfil{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.foto-perfil img {
+    border-radius: 50%;
+    height: 250px;
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.ensinos {
+
+}
