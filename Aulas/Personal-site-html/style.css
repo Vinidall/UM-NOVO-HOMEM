@@ -3,14 +3,9 @@
     margin: 0px;
 }
 
-body {
- 
-}
-
 .foto-perfil{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 .foto-perfil img {
@@ -26,5 +21,26 @@ h1 {
 }
 
 .ensinos {
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top:20px;
+    padding-bottom: 30px;
+}
 
+.ensinos p {
+    padding-bottom: 15px;
+}
+
+.links {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.links ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.links a {
+    
 }
