@@ -15,11 +15,19 @@
 .cs {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 45vh;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 .seletor {
-    
+    padding-right: 200px;
+   
+}
+.seletor ul {
+    list-style: none;
+}
+.seletor ul li {
+    padding-bottom:20px;
 }
 .vidio {
     display: flex;
