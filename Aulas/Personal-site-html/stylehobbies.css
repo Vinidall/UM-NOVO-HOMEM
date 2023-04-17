@@ -20,7 +20,7 @@ body {
 
 .container {
     display:flex;
-    height: 40vh;
+    height: 82vh;
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
@@ -51,18 +51,18 @@ body {
     transition-duration: .4s;
 }
 .valorant img {
-    height: 300px;
+    height: 400px;
     border: 1px solid black;
     border-radius: 15px;
 }
 .discord img {
-    height: 300px;
-    width: 255px;
+    height: 400px;
+    width: 300px;
     border: 1px solid black;
     border-radius: 20px;
 }
 .lol img {
-    height: 300px;
+    height: 400px;
     border: 1px solid black;
     border-radius: 15px;
 }

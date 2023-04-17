@@ -5,37 +5,70 @@
     background-color: rgb(24, 24, 24);  
     color: white; 
 }
-
 .intro {
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .cs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45vh;
+    height: 40vh;
     border: 1px solid black;
 }
-.seletor {
-    padding-right: 200px;
-   
+
+.h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.seletor ul {
-    list-style: none;
-}
-.seletor ul li {
-    padding-bottom:20px;
-}
-.vidio {
+.vidios {
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
+.vidio-cs2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .vava {
-    height: 45vh;
+    height: 35vh;
+}
+.resto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+.vidio-vava2 {
+    padding: 20px;
+}
+.vidio-vava5 {
+    padding: 20px;
+}
+
+.vidios-vava {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volta {
+    font-size: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.volta a {
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.volta a:hover p {
+    background-color: black;
+    padding: 4px;
+    transition-duration: .2s;
+    border-radius: 10px;
 }
