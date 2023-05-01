@@ -1,0 +1,24 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Libre Baskerville';
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#imagem-principal img{
+    border: 5px solid white;
+    margin-top: 2rem;
+}
+h1 {
+    font-size: 3rem;
+    margin: 2rem;
+}
+p {
+    font-size:0.9rem;
+}
