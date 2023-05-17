@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+}
+
+.itens {
+    background-color: green;
+    color: whitesmoke;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.first {
+    width: 200px;
+}
+
+.second {
+    width: 200px;
+}
+.third {
+    width: 400px;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
