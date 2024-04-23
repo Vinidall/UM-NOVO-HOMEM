@@ -1,0 +1,37 @@
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'); 
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'); 
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: red;
+    height: 20px;
+}
+
+#container-left { 
+    height: 15px;
+    background-color: none;
+    
+}
+
+#container-left ul { 
+    padding: 2px;
+    display: flex;
+}
+
+#container-left li {
+    padding-left: 15px;
+    list-style: none;
+}
+
+#container-left a {
+    text-decoration: none;
+    color: white;
+}
