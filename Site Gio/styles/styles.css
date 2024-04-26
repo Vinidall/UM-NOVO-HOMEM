@@ -2,6 +2,8 @@
 @import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'); 
 @import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css');
 @import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/shopping-bag.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/smile-mouth-open.css');
 
 * {
     margin: 0px;
@@ -13,12 +15,13 @@
 header {
     background-color: red;
     height: 20px;
+    display: flex;
 }
 
 #container-left { 
     height: 15px;
     background-color: none;
-    
+    width: 20%;
 }
 
 #container-left ul { 
@@ -34,4 +37,63 @@ header {
 #container-left a {
     text-decoration: none;
     color: white;
+
+}
+
+
+#pesquisa { 
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+#pesquisa #logo img {
+    width: 90px;   
+}
+#pesquisa #logo {
+    margin: 20px;
+}
+#pesquisa  #barra-pesquisa { 
+    display: flex;
+    align-items: center;
+
+}
+#pesquisa input {
+    background-color: white;
+    background-image: url(../imgs/searchicon.png);   
+    background-repeat: no-repeat;
+    padding: 1.5px;
+    padding-left: 40px;
+    width: 40rem;
+    border: 1px rgb(161, 161, 161) solid;
+}
+
+#atendimento ul{ 
+    display: flex;
+    padding: 20px;
+}
+#atendimento li {
+    list-style: none;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pesquisa-produtos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pesquisa-produtos li {
+    list-style: none;
+    padding-left: 3rem;
+
+}
+
+#pesquisa-produtos a { 
+    text-decoration: none;
+    color: black;
 }
