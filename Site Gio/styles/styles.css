@@ -7,16 +7,23 @@
 @import url('https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down.css');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
 }
-
+body {
+    height: 100vh;
+    width: 100vw;
+}
 header {
     background-color: red;
     height: 20px;
     display: flex;
+    position: fixed;
+    top: 0; right: 0; left: 0;
 }
 
 #container-left { 
@@ -41,19 +48,23 @@ header {
 
 }
 
-
 #pesquisa { 
+    position: fixed;
+    left: 0; right: 0; top: 0;
+    
     padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     width: 100vw;
+    padding-top: 20px;
 }
 
 #pesquisa #logo img {
-    width: 90px;   
+    width: 120px;   
 }
 #pesquisa #logo {
     margin: 20px;
+
 }
 #pesquisa  #barra-pesquisa { 
     display: flex;
@@ -82,26 +93,57 @@ header {
     align-items: center;
 }
 
-#pesquisa-produtos ul{
+
+
+
+#pesquisa-produtos {
+    position: fixed;
+    right: 0; top: 20%; left: 0;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    background-color: gray;
+    z-index: 1;
 }
 
-#pesquisa-produtos li {
+#pesquisa-produtos ul {
     list-style: none;
-    padding-left: 3rem;
-
 }
 
-#pesquisa-produtos a { 
-    text-decoration: none;
-    color: black;
+#pesquisa-produtos ul li {
+    position: relative;
+    float: left;
 }
 
-#pesquisa-produtos i { 
-    font-size: 10px;
+#pesquisa-produtos ul li a { 
+    font-size: 20px;
+    color: #333;
+    padding: 20px;
+    display: block;
+}
+#pesquisa-produtos ul li a:hover {
+    background: #333;
+    color: #fff;
+}
+
+#pesquisa-produtos ul li ul { 
     position: absolute;
-    top: calc(29.5%);
-    right: calc(48%);
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    display: none;
+}
+
+#pesquisa-produtos ul li ul li { 
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+#pesquisa-produtos ul li ul li ul {
+    left: 200px;
+    top: 0; 
+}
+
+#pesquisa-produtos ul li:hover > ul {
+    display: initial
 }
