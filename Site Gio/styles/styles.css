@@ -4,6 +4,7 @@
 @import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css');
 @import url('https://unpkg.com/css.gg@2.0.0/icons/css/shopping-bag.css');
 @import url('https://unpkg.com/css.gg@2.0.0/icons/css/smile-mouth-open.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down.css');
 
 * {
     margin: 0px;
@@ -96,4 +97,11 @@ header {
 #pesquisa-produtos a { 
     text-decoration: none;
     color: black;
+}
+
+#pesquisa-produtos i { 
+    font-size: 10px;
+    position: absolute;
+    top: calc(29.5%);
+    right: calc(48%);
 }
